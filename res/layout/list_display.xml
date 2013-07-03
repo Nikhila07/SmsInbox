@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" 
+ android:background="#000"
+>
+
+
+<ListView
+    android:id="@+id/listView1"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="48.75" >
+</ListView>
+
+<!-- <Button
+    android:id="@+id/bClear2"
+    android:layout_width="86dp"
+    android:layout_height="wrap_content"
+    android:text="Clear"
+     /> -->
+
+ <Button
+     android:id="@+id/bsettings"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:background="@android:color/white"
+     android:text="Settings"
+     android:textColor="@android:color/black" />
+ <Button
+    android:id="@+id/bupload"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Upload"
+    android:textColor="@android:color/black"
+    android:background="@android:color/darker_gray"
+    />
+
+</LinearLayout>

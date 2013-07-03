@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+>
+
+    <TextView
+        android:id="@+id/bnumbdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.57"
+        android:text="Contact no"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ListView
+        android:id="@+id/bsms"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="40.90" >
+    </ListView>
+    <!-- <Button
+    android:id="@+id/bupload"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Upload"
+    android:textColor="@android:color/black"
+    android:background="@android:color/darker_gray"
+    />
+ -->
+</LinearLayout>

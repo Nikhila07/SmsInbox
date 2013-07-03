@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nameLinear"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+      android:orientation="vertical"
+    android:layout_weight="100"
+    
+     >
+
+    <TextView
+        android:id="@+id/numbText"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/editName"
+        android:text="Number"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+  
+   <!--  <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="10px" >
+    </CheckBox> -->
+
+   
+
+</RelativeLayout>

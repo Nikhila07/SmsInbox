@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/feed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etNames"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type the exact string you want to save" />
+
+    <Button
+        android:id="@+id/bResutls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <!--
+         <TextView
+        android:id="@+id/tvResults"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="invalid" />
+    -->
+
+    <ListView
+        android:id="@+id/tvcontact"
+        android:layout_width="match_parent"
+        android:layout_height="284dp"
+        android:layout_weight="0.65"
+        android:hint="Feed Contact"
+        android:textSize="40dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/bClear"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Clear" />
+
+</LinearLayout>
